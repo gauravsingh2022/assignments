@@ -1,0 +1,29 @@
+package assignment;
+
+public class TypeCasting2 {
+
+	public static void main(String[] args) 
+	{
+	
+		System.out.println("____Implicit Type Casting____");
+		char a = 'A';
+		int b = (int) a;
+		System.out.println(b);
+		
+		float c = b;
+		System.out.println(c);
+		
+		double d = c;
+		System.out.println(d);
+		
+		System.out.println("____Explicit Type Casting____");
+		
+		double e = 5.3454654557;
+		int f = (int)e;
+		System.out.println(f);
+		
+		byte g= (byte)f;
+		System.out.println(g);
+	}
+
+}
